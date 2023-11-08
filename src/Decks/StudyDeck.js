@@ -4,7 +4,7 @@ import { Link, useParams, useHistory } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { readDeck } from "../utils/api";
 
-function DeckStudy() {
+function StudyDeck() {
   const [card, setCard] = useState({});
   const [deck, setDeck] = useState({});
   const [cardId, setCardId] = useState(0);
@@ -146,4 +146,4 @@ function DeckStudy() {
   }
 }
 
-export default DeckStudy;
+export default StudyDeck;
